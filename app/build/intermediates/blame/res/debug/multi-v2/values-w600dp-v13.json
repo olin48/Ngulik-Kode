@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/values-w600dp/dimens.xml",
+                    "from": {
+                        "startLines": "9,10,8,7,13,18,14,15,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "365,403,300,242,474,648,519,574,151",
+                        "endColumns": "37,42,64,57,44,44,54,52,63",
+                        "endOffsets": "398,441,360,295,514,688,569,622,210"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,136,201,259,304,349,404,457",
+                        "endColumns": "37,42,64,57,44,44,54,52,63",
+                        "endOffsets": "88,131,196,254,299,344,399,452,516"
+                    }
+                }
+            ]
+        }
+    ]
+}

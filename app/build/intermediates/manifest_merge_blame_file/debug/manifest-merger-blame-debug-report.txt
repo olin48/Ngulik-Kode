@@ -1,0 +1,426 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.panelic.ngulikode"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml
+10
+11    <!-- Always Required to get content and check if internet is available -->
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:7:5-75
+12-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:8:5-78
+13-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:9:22-64
+15    <!-- Always Required for image coaching & maps -->
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:11:5-80
+16-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:12:5-80
+17-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:12:22-77
+18
+19    <!-- Required for RSS Service -->
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:15:5-81
+20-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:15:22-78
+21    <!-- Required for maps -->
+22    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+22-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:17:5-97
+22-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:17:22-95
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:18:5-95
+23-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:18:22-76
+24    <!-- Required for visualizer & radio -->
+25    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+25-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:20:5-87
+25-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:20:22-68
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:21:5-67
+26-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:21:22-65
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+27-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:22:5-74
+27-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:22:22-72
+28    <!-- Required for tumblr -->
+29    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+29-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:24:5-71
+29-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:24:22-69
+30    <!-- Required for in-app purchases -->
+31    <uses-permission android:name="com.android.vending.BILLING" />
+31-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:26:5-67
+31-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:26:22-64
+32
+33    <uses-feature
+33-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:28:5-30:34
+34        android:glEsVersion="0x00020000"
+34-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:29:9-41
+35        android:required="true" />
+35-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:30:9-32
+36
+37    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/9b61668c14d25e64d79a2c903cd699bb/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:23:5-82
+38-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/9b61668c14d25e64d79a2c903cd699bb/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
+39
+40    <application
+40-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:32:5-110:19
+41        android:name="androidx.multidex.MultiDexApplication"
+42        android:allowBackup="true"
+42-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:38:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.2.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/f4976fdf66a867c7fc93ada653134a06/core-1.2.0/AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@drawable/ic_launcher"
+45-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:33:9-45
+46        android:label="@string/app_name"
+46-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:35:9-41
+47        android:networkSecurityConfig="@xml/network_security_config"
+47-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:36:9-69
+48        android:testOnly="true"
+49        android:theme="@style/AppTheme"
+49-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:34:9-40
+50        android:usesCleartextTraffic="true" >
+50-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:37:9-44
+51
+52        <!-- Activities -->
+53        <activity
+53-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:40:9-48:20
+54            android:name="com.panelic.ngulikode.MainActivity"
+54-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:41:13-62
+55            android:label="@string/app_name"
+55-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:43:13-45
+56            android:theme="@style/AppThemeBar" >
+56-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:42:13-47
+57            <intent-filter>
+57-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:44:13-47:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:45:17-69
+58-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:45:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:46:17-77
+60-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:46:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <meta-data
+64-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:49:9-51:36
+65            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+65-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:50:13-69
+66            android:value="true" />
+66-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:51:13-33
+67
+68        <activity
+68-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:52:9-56:89
+69            android:name="com.panelic.ngulikode.yt.player.YouTubePlayerActivity"
+69-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:53:13-81
+70            android:configChanges="keyboardHidden|orientation|screenSize"
+70-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:54:13-74
+71            android:screenOrientation="sensor"
+71-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:55:13-47
+72            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+72-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:56:13-77
+73        <activity
+73-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:58:9-60:71
+74            android:name="com.panelic.ngulikode.rss.ui.RssDetailActivity"
+74-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:59:13-74
+75            android:configChanges="orientation|screenSize" />
+75-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:60:13-59
+76        <activity
+76-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:62:9-64:71
+77            android:name="com.panelic.ngulikode.yt.ui.VideoDetailActivity"
+77-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:63:13-75
+78            android:configChanges="orientation|screenSize" />
+78-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:64:13-59
+79        <activity
+79-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:66:9-68:71
+80            android:name="com.panelic.ngulikode.web.WebviewActivity"
+80-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:67:13-69
+81            android:configChanges="orientation|screenSize" />
+81-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:68:13-59
+82        <activity
+82-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:70:9-72:71
+83            android:name="com.panelic.ngulikode.comments.CommentsActivity"
+83-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:71:13-75
+84            android:configChanges="orientation|screenSize" />
+84-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:72:13-59
+85        <activity
+85-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:74:9-76:71
+86            android:name="com.panelic.ngulikode.util.MediaActivity"
+86-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:75:13-68
+87            android:configChanges="orientation|screenSize" />
+87-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:76:13-59
+88        <activity
+88-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:78:9-82:65
+89            android:name="com.panelic.ngulikode.fav.FavRed"
+89-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:79:13-60
+90            android:noHistory="true"
+90-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:80:13-37
+91            android:screenOrientation="portrait" />
+91-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:81:13-49
+92        <activity
+92-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:84:9-87:64
+93            android:name="com.google.android.gms.ads.AdActivity"
+93-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:85:13-65
+94            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+94-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:86:13-122
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:32:13-37
+96            android:theme="@android:style/Theme.Translucent" />
+96-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:87:13-61
+97
+98        <!-- Services -->
+99        <service
+99-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:90:10-93:47
+100            android:name="com.panelic.ngulikode.rss.RssService"
+100-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:92:14-65
+101            android:enabled="true"
+101-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:93:14-36
+102            android:permission="android.permission.INTERNET" />
+102-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:91:14-62
+103        <service
+103-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:95:10-98:40
+104            android:name="com.sherdle.universal.media.MediaService"
+104-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:96:13-68
+105            android:enabled="true"
+105-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:97:13-35
+106            android:exported="false" />
+106-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:98:13-37
+107
+108        <!-- Receivers -->
+109        <receiver android:name="com.panelic.ngulikode.rss.ServiceStarter" />
+109-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:101:10-87
+109-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:101:20-75
+110        <receiver
+110-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:102:10-108:20
+111            android:name="com.panelic.ngulikode.rss.BootReceiver"
+111-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:102:20-73
+112            android:enabled="false"
+112-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:104:20-43
+113            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+113-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:103:20-82
+114            <intent-filter>
+114-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:105:14-107:29
+115                <action android:name="android.intent.action.BOOT_COMPLETED" />
+115-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:106:21-90
+115-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:106:29-80
+116            </intent-filter>
+117        </receiver>
+118
+119        <provider
+119-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:35:9-39:39
+120            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+120-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:36:13-76
+121            android:authorities="com.panelic.ngulikode.mobileadsinitprovider"
+121-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:37:13-73
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:38:13-37
+123            android:initOrder="100" />
+123-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:39:13-36
+124
+125        <service
+125-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:41:9-44:40
+126            android:name="com.google.android.gms.ads.AdService"
+126-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:42:13-64
+127            android:enabled="true"
+127-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:43:13-35
+128            android:exported="false" />
+128-->[com.google.android.gms:play-services-ads-lite:19.5.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/4d513610a2b5a46642ea5e7ff93cdc1e/jetified-play-services-ads-lite-19.5.0/AndroidManifest.xml:44:13-37
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:17.0.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:17.0.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:17.0.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:17.0.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/6fb3f6cd2b75dfe7dd10f87d94351f9e/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+134
+135        <meta-data
+135-->[com.google.android.gms:play-services-basement:17.3.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/f41f215bb955a9baf06311f1df45a569/jetified-play-services-basement-17.3.0/AndroidManifest.xml:23:9-25:69
+136            android:name="com.google.android.gms.version"
+136-->[com.google.android.gms:play-services-basement:17.3.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/f41f215bb955a9baf06311f1df45a569/jetified-play-services-basement-17.3.0/AndroidManifest.xml:24:13-58
+137            android:value="@integer/google_play_services_version" />
+137-->[com.google.android.gms:play-services-basement:17.3.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/f41f215bb955a9baf06311f1df45a569/jetified-play-services-basement-17.3.0/AndroidManifest.xml:25:13-66
+138
+139        <provider
+139-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+140            android:name="androidx.work.impl.WorkManagerInitializer"
+140-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+141            android:authorities="com.panelic.ngulikode.workmanager-init"
+141-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+142            android:directBootAware="false"
+142-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+143            android:exported="false"
+143-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+144            android:multiprocess="true" />
+144-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+145
+146        <service
+146-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+147            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+147-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+148            android:directBootAware="false"
+148-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+149            android:enabled="@bool/enable_system_alarm_service_default"
+149-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+150            android:exported="false" />
+150-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+151        <service
+151-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+152            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+152-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+153            android:directBootAware="false"
+153-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+154            android:enabled="@bool/enable_system_job_service_default"
+154-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+155            android:exported="true"
+155-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+157
+158        <receiver
+158-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+159            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+159-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+160            android:directBootAware="false"
+160-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+161            android:enabled="true"
+161-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+162            android:exported="false" />
+162-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+163        <receiver
+163-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+164            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+164-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+165            android:directBootAware="false"
+165-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+166            android:enabled="false"
+166-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+167            android:exported="false" >
+167-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+168            <intent-filter>
+168-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+169                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+169-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+169-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+170                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+170-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+170-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+171            </intent-filter>
+172        </receiver>
+173        <receiver
+173-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+174            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+174-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+175            android:directBootAware="false"
+175-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+176            android:enabled="false"
+176-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+178            <intent-filter>
+178-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+179                <action android:name="android.intent.action.BATTERY_OKAY" />
+179-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+179-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+180                <action android:name="android.intent.action.BATTERY_LOW" />
+180-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+180-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+181            </intent-filter>
+182        </receiver>
+183        <receiver
+183-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+184            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+184-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+186            android:enabled="false"
+186-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+187            android:exported="false" >
+187-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+188            <intent-filter>
+188-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+189                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+189-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+189-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+190                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+190-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+190-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+191            </intent-filter>
+192        </receiver>
+193        <receiver
+193-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+194            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+194-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+195            android:directBootAware="false"
+195-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+196            android:enabled="false"
+196-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+197            android:exported="false" >
+197-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+198            <intent-filter>
+198-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+199                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+199-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+199-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+200            </intent-filter>
+201        </receiver>
+202        <receiver
+202-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+203            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+203-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+204            android:directBootAware="false"
+204-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+205            android:enabled="false"
+205-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+206            android:exported="false" >
+206-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+207            <intent-filter>
+207-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+208                <action android:name="android.intent.action.BOOT_COMPLETED" />
+208-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:106:21-90
+208-->/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/AndroidManifest.xml:106:29-80
+209                <action android:name="android.intent.action.TIME_SET" />
+209-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+209-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+210                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+210-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+210-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+211            </intent-filter>
+212        </receiver>
+213        <receiver
+213-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+214            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+214-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+216            android:enabled="@bool/enable_system_alarm_service_default"
+216-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+217            android:exported="false" >
+217-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+218            <intent-filter>
+218-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+219                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+219-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+219-->[androidx.work:work-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/5ceb05d79c5ffd344d3ea01cfd74b814/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+220            </intent-filter>
+221        </receiver>
+222
+223        <service
+223-->[androidx.room:room-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/8accc10ca125af68573f6c7a82b250fb/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+224            android:name="androidx.room.MultiInstanceInvalidationService"
+224-->[androidx.room:room-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/8accc10ca125af68573f6c7a82b250fb/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+225            android:exported="false" />
+225-->[androidx.room:room-runtime:2.1.0] /Users/konekthing2017/.gradle/caches/transforms-2/files-2.1/8accc10ca125af68573f6c7a82b250fb/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+226    </application>
+227
+228</manifest>

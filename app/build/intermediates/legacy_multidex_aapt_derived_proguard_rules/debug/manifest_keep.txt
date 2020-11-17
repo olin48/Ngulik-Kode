@@ -1,0 +1,4 @@
+# Referenced at /Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:40
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:40
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

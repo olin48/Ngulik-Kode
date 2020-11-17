@@ -37,7 +37,7 @@ public class Config {
 
         //It's suggested to not change the content below this line
         i.add(new NavItem("Tools", NavItem.SECTION));
-        i.add(new NavItem("Contact", R.drawable.ic_email, NavItem.EXTRA, SendFragment.class, null));
+//        i.add(new NavItem("Contact", R.drawable.ic_email, NavItem.EXTRA, SendFragment.class, null));
         i.add(new NavItem("Favorites", R.drawable.ic_favorite, NavItem.EXTRA, FavFragment.class, null));
         i.add(new NavItem("Settings", R.drawable.ic_settings, NavItem.EXTRA, SettingsFragment.class, null));
         

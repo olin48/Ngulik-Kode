@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package android.support.v4.preference;
+package androidx.core.preference;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;

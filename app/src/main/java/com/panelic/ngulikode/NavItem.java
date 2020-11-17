@@ -1,6 +1,6 @@
 package com.panelic.ngulikode;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 public class NavItem {
 	public static int ITEM = 1;

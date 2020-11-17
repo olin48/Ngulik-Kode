@@ -7,12 +7,12 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.Menu;
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements
 			mNavigationDrawerFragment.setup(R.id.fragment_drawer,
 					(DrawerLayout) findViewById(R.id.drawer), mToolbar);
 			 
-			DrawerLayout.LayoutParams params = (android.support.v4.widget.DrawerLayout.LayoutParams) mNavigationDrawerFragment.getView().getLayoutParams();
+			DrawerLayout.LayoutParams params = (DrawerLayout.LayoutParams) mNavigationDrawerFragment.getView().getLayoutParams();
 		    params.width = getDrawerWidth();
 		    mNavigationDrawerFragment.getView().setLayoutParams(params);
 		}

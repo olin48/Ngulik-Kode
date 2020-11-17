@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w800dp-land-v13/values-w800dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/values-w800dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "3,4,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "77,115,185",
+                        "endColumns": "37,41,45",
+                        "endOffsets": "110,152,226"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,93,135",
+                        "endColumns": "37,41,45",
+                        "endOffsets": "88,130,176"
+                    }
+                }
+            ]
+        }
+    ]
+}

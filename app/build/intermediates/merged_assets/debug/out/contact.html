@@ -1,0 +1,42 @@
+<div class="box">
+<form name="contact-form" action="mailto:ngulikode@gmail.com" method="post" enctype="text/plain">
+<span style="color: #666666; font-family: &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-weight: 700;"><i class="fa fa-user"></i> Name </span><br />
+<input id="ContactForm1_contact-form-name" name="name" size="30" type="text" value="" /><br />
+<span style="color: #666666; font-family: &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-weight: 700;"><i class="fa fa-envelope"></i> Email Address <span style="color: #f56954; font-size: x-small; font-weight: bold;">important</span></span> 
+<input id="ContactForm1_contact-form-email" name="email" size="30" type="text" value="" /><br />
+<span style="color: #666666; font-family: &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-weight: 700;"><i class="fa fa-pencil-square-o"></i> Content <span style="color: #f56954; font-size: x-small; font-weight: bold;">important</span></span>
+<textarea cols="25" id="ContactForm1_contact-form-email-message" name="email-message" rows="5"></textarea> 
+<input id="ContactForm1_contact-form-submit" type="submit" value="Send" />  
+<br />
+<div style="max-width: 222px; text-align: center; width: 100%;">
+<div id="ContactForm1_contact-form-error-message">
+</div>
+<div id="ContactForm1_contact-form-success-message">
+</div>
+</div>
+</form>
+</div>
+<style scoped="" type="text/css">
+.box{
+	border: 0px solid black;
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#comments,.post_meta,#blog-pager {display:none;}
+#ContactForm1_contact-form-name, #ContactForm1_contact-form-email{
+width:90%;height:auto;margin:5px auto;padding:10px;background:#fff;color:#444;border:1px solid #ddd;border-radius:3px;transition:all 0.5s ease-out;}
+#ContactForm1_contact-form-email-message{width:100%;height:175px;margin:5px 0;padding:10px;background:#fff;color:#444;font-family:'Karla',sans-serif;border:1px solid #ddd;border-radius:3px;transition:all 0.5s ease-out;}
+#ContactForm1_contact-form-name:focus, #ContactForm1_contact-form-email:focus, #ContactForm1_contact-form-email-message:focus{outline:none;background:#fff;color:#444;border-color:rgba(81,203,238,1);box-shadow:0 0 5px rgba(81,203,238,0.7);}
+#ContactForm1_contact-form-submit {width:100%;font-family:'Karla';float:left;background:#fff;color:#aaa;margin:10px auto;vertical-align:middle;cursor:pointer;padding:10px 18px!important;font-weight:700;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;border-radius:3px;background-image: linear-gradient(110deg, #7986cb 0%, #7986cb 50%, transparent 50%, transparent 100%);background-size:200%;background-position:120% 0;background-repeat:no-repeat;border:1px solid #ddd;transition:all .8s ease, background-position .8s ease, color .8s ease;}
+#ContactForm1_contact-form-submit:hover {color:#fff;background-position:0 0;border-color:#7986cb;}
+#ContactForm1_contact-form-error-message, #ContactForm1_contact-form-success-message{
+width:100%;margin-top:35px;}
+.contact-form-error-message-with-border {background:#f36c60;border:none;box-shadow:none;color:#fff;padding:5px 0;}
+.contact-form-success-message {background:#4fc3f7;border:none;box-shadow:none;color:#fff;}
+img.contact-form-cross {line-height:40px;margin-left:5px;}
+</style>

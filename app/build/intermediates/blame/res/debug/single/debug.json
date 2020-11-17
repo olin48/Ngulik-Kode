@@ -1,0 +1,562 @@
+[
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_drawer_section.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/drawer_section.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_webview.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_webview.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_eye.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_eye.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_share.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_placeholder.jpg.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/placeholder.jpg"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_drawer_row.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/drawer_row.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_drawer_top.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/drawer_top.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_play_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_play_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_comments_row.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_comments_row.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_reader.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_reader.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_retweet.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_retweet.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_search.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_youtube_detail.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_youtube_detail.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_retweet.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_retweet.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_refresh.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_card_button.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/card_button.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_rss_detail_menu.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/rss_detail_menu.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_hardware_keyboard_arrow_left.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_hardware_keyboard_arrow_left.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_drawer_top_gradient.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/drawer_top_gradient.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_youtube_detail_menu.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/youtube_detail_menu.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_play_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_play_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_facebook.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_facebook.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-nodpi_radio_background.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-nodpi/radio_background.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_retweet.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_retweet.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_home.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_pause_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_pause_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_refresh.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_refresh.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-v21_card_background_inner.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-v21/card_background_inner.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-v21_card_background.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-v21/card_background.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_thumbs_up.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_thumbs_up.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_media_button_pause.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/media_button_pause.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_error.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_error.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_play_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_play_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_fab_ripple_blue.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/fab_ripple_blue.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_hardware_keyboard_arrow_left.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_hardware_keyboard_arrow_left.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_action_done.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_action_done.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_play_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_play_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_card_background.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/card_background.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_comment_sub.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_comment_sub.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_rss_details.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_rss_details.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_details.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_details.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_friendslist.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_menu_friendslist.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_youtube.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_youtube.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_toolbar_transparent.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/toolbar_transparent.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_play_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_play_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_refresh_menu.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/refresh_menu.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_details.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_details.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_reader.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_reader.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_hardware_keyboard_arrow_left.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_hardware_keyboard_arrow_left.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_favorite.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_favorite.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_listview_loading.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/listview_loading.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/xml_activity_settings.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/xml/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_play.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_play.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_action_done.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_action_done.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_share.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_pause_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_pause_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_toolbar_default.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/toolbar_default.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_hardware_keyboard_arrow_left.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_hardware_keyboard_arrow_left.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_hardware_keyboard_arrow_right.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_hardware_keyboard_arrow_right.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_pause_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_pause_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_thumbs_up.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_thumbs_up.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_play_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_play_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_webview_menu.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/webview_menu.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_media_roundedholder.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/media_roundedholder.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_details.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_details.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_play_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_play_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_play.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_play.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_pause_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_pause_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_fav.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_fav.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_abc_ic_ab_back_holo_dark.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_menu_media.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/menu_media.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_youtube.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_youtube.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_eye.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_eye.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_forward.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_menu_forward.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_details.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_details.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_media_button_play.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/media_button_play.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_play.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_play.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_facebook_row.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_facebook_row.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_highlight_gradient.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/highlight_gradient.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_pause_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_pause_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_tips_blog.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_tips_blog.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_pause_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_pause_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_retweet.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_retweet.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_thumbs_up.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_thumbs_up.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_youtube_row.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_youtube_row.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_list.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_list.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_rss_row.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_rss_row.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_list_nopadding.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_list_nopadding.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_fab_background_blue.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/fab_background_blue.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_email.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_email.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_favorite.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_favorite.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_tips_trik.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_tips_trik.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_action_done.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_action_done.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_share.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_listview_highlight.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/listview_highlight.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_preference_list.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_preference_list.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_rss_menu.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/rss_menu.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_main_alternate.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_main_alternate.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_facebook.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_facebook.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_email.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_email.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_settings.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_thumbs_up.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_action_thumbs_up.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_android.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_android.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_settings.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_card_bottom.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/card_bottom.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_comments.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_comments.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_play.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_play.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_play_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_play_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_fav_row.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_fav_row.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_tips_blog.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_tips_blog.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/menu_favorite_menu.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/menu/favorite_menu.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_pause_unactive.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_pause_unactive.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_hardware_keyboard_arrow_right.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_hardware_keyboard_arrow_right.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_hardware_keyboard_arrow_right.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_hardware_keyboard_arrow_right.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_hardware_keyboard_arrow_right.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xxhdpi/ic_action_hardware_keyboard_arrow_right.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_main_tablet.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_main_tablet.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_action_done.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_action_done.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_webview_actionbar.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_webview_actionbar.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_listview_footer.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/listview_footer.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_toolbar_gradient.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/toolbar_gradient.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_webview.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_webview.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_tips_trik.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_tips_trik.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_drawer_fragment.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/drawer_fragment.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_favorite.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_favorite.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable_drawer_header.jpg.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable/drawer_header.jpg"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_share.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_activity_media.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/activity_media.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_pause_active.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_pause_active.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-v21_fab_ripple_blue.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-v21/fab_ripple_blue.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_favorite.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_action_favorite.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_settings.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_refresh.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-hdpi/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/layout_fragment_media.xml.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/layout/fragment_media.xml"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_android.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-mdpi/ic_android.png"
+    },
+    {
+        "merged": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_back.png.flat",
+        "source": "/Users/konekthing2017/Documents/android/Ngulik-Kode/app/src/main/res/drawable-xhdpi/ic_menu_back.png"
+    }
+]

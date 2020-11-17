@@ -53,7 +53,8 @@ public class RSSHandler extends DefaultHandler {
         } else if (qName.equalsIgnoreCase("media:thumbnail")) { 
             currentState = State.media;    
             String attrValue = attributes.getValue("url");
-        	item.setThumburl(attrValue);
+            String repValue = attrValue.replace("s72-c/", "");
+        	item.setThumburl(repValue);
         } else if (qName.equalsIgnoreCase("media:content")){
         	currentState = State.media;   
         	String attrValue = attributes.getValue("url");

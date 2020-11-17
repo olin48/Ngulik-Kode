@@ -11,5 +11,5 @@
         android:id="@+id/miShare"
         universal:showAsAction="always"
         android:title="@string/share"
-        universal:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+        universal:actionProviderClass="androidx.appcompat.widget.ShareActionProvider" />
 </menu>

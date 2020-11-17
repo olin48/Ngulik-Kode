@@ -16,7 +16,7 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
-import android.support.v4.preference.PreferenceFragment;
+import androidx.core.preference.PreferenceFragment;
 import android.text.Html;
 import android.util.Log;
 import android.widget.Toast;
